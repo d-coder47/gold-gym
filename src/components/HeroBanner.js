@@ -3,6 +3,7 @@ import { Box, Typography, Button } from "@mui/material";
 import HeroBannerImage from "../assets/images/banner.png";
 
 const HeroBanner = () => {
+
   return (
     <Box
       sx={{
@@ -30,9 +31,9 @@ const HeroBanner = () => {
       </Typography>
       <Button
         variant="contained"
-        color="error"
+        //color="error"
         href="#exercises"
-        sx={{ backgroundColor: "#FF2625", padding: "10px" }}
+        sx={{  padding: "10px" }}
       >
         Explore Exercises
       </Button>
@@ -45,7 +46,10 @@ const HeroBanner = () => {
         Exercise
       </Typography>
       <img src={HeroBannerImage} alt="banner" className="hero-banner-img" />
+
     </Box>
+
+
   );
 };
 
