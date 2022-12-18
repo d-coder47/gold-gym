@@ -37,11 +37,11 @@ const ExerciseVideos = ({ name, exerciseVideos }) => {
               alt={exerciseVideo.video.title}
             />
             <Box>
-              <Typography variant="h5" color="#000">
+              <Typography variant="h5" sx={{ color: "text.primary" }}>
                 {" "}
                 {exerciseVideo.video.title}{" "}
               </Typography>
-              <Typography variant="h6" color="#000">
+              <Typography variant="h6" sx={{ color: "text.primary" }}>
                 {" "}
                 {exerciseVideo.video.channelName}{" "}
               </Typography>
